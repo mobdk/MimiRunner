@@ -3,6 +3,8 @@ Run Mimikatz with ReactOS cmd.exe
 
 Code execution with delay, this PoC shows how to run "Mimikatz", not using Windows cmd.exe but ReactOS cmd.exe (64 bit) and stay undetected by Defender. No change to the orginal "Mimikatz" compiled code.
 
+cmd64.log is ReactOS cmd.exe 64 bit
+
 
 The following syscall are used:
 
