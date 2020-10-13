@@ -6,7 +6,7 @@ Code execution with delay, this PoC shows how to run "Mimikatz", not using Windo
 
 The following syscall are used:
 
-
+```
 ZwOpenProcess
 ZwAllocateVirtualMemory
 ZwProtectVirtualMemory
@@ -15,7 +15,7 @@ ZwOpenThread
 ZwQueueApcThread
 ZwResumeThread
 ZwClose
-
+```
 
 
 
